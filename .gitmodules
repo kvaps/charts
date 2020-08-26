@@ -22,3 +22,6 @@
 [submodule "sources/stolon-chart"]
 	path = sources/stolon-chart
 	url = https://github.com/kvaps/stolon-chart
+[submodule "sources/kubernetes-in-kubernetes"]
+	path = sources/kubernetes-in-kubernetes
+	url = https://github.com/kvaps/kubernetes-in-kubernetes
