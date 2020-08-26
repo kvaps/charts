@@ -3,7 +3,7 @@ entries:
   kube-fencing:
   - apiVersion: v1
     appVersion: 2.0.1
-    created: "2020-08-26T16:55:35.753124185+02:00"
+    created: "2020-08-26T23:42:43.842710387+02:00"
     description: Fencing implementation for Kubernetes
     digest: a8457eaec6aa37d3fb34991954b90a30493690eeb322b2855123a22ed7f5cca4
     home: https://github.com/kvaps/kube-fencing
@@ -22,7 +22,7 @@ entries:
     - https://kvaps.github.io/charts/kube-fencing-2.0.1.tgz
     version: 2.0.1
   - apiVersion: v1
-    created: "2020-08-26T16:55:35.752743039+02:00"
+    created: "2020-08-26T23:42:43.842123997+02:00"
     description: Fencing implementation for Kubernetes
     digest: f612d34ae3f7845cc8c357fe3e2b0c2f90146c3e1c661cbb264014e006fdc71f
     home: https://github.com/kvaps/kube-fencing
@@ -40,32 +40,10 @@ entries:
     urls:
     - https://kvaps.github.io/charts/kube-fencing-2.0.0.tgz
     version: 2.0.0
-  kube-linstor:
-  - apiVersion: v1
-    appVersion: 1.7.2
-    created: "2020-08-26T16:55:35.754131167+02:00"
-    description: Linstor Controller and Satellites for Kubernetes
-    digest: 28a340b2862692cba0bbf8466e1ddf766be032b335db5111a0cffbda1258d498
-    home: https://github.com/kvaps/kube-linstor
-    keywords:
-    - linstor
-    - drbd
-    - storage
-    - csi
-    maintainers:
-    - email: kvapss@gmail.com
-      name: kvaps
-    name: kube-linstor
-    sources:
-    - https://hub.docker.com/r/kvaps/linstor-controller
-    - https://hub.docker.com/r/kvaps/linstor-satellite
-    urls:
-    - https://kvaps.github.io/charts/kube-linstor-1.7.2.tgz
-    version: 1.7.2
   kubefarm:
   - apiVersion: v1
     appVersion: 5.8.5
-    created: "2020-08-26T16:55:35.760523835+02:00"
+    created: "2020-08-26T23:42:43.851855961+02:00"
     dependencies:
     - name: kubernetes
       repository: file://vendor/github.com/kvaps/kubernetes-in-kubernetes/deploy/helm/kubernetes
@@ -90,7 +68,7 @@ entries:
   kubernetes:
   - apiVersion: v1
     appVersion: 1.18.6
-    created: "2020-08-26T16:55:35.762137286+02:00"
+    created: "2020-08-26T23:42:43.854992395+02:00"
     description: Production-Grade Container Scheduling and Management
     digest: 765d0c9df58593df6319d23f87d63557a320242fe27f1b8c4c60c52738ec86e5
     home: https://github.com/kvaps/kubernetes-in-kubernetes
@@ -109,10 +87,32 @@ entries:
     urls:
     - https://kvaps.github.io/charts/kubernetes-0.1.0.tgz
     version: 0.1.0
+  linstor:
+  - apiVersion: v1
+    appVersion: 1.7.2
+    created: "2020-08-26T23:42:43.856987831+02:00"
+    description: Containerized LINSTOR SDS for Kubernetes, ready for production use,
+    digest: 6e8adbf8ce2df4a6e9fe783514fd152b11f17c49e01bb8e9e1ebc82d5f9c8ebc
+    home: https://github.com/kvaps/kube-linstor
+    keywords:
+    - linstor
+    - drbd
+    - storage
+    - csi
+    maintainers:
+    - email: kvapss@gmail.com
+      name: kvaps
+    name: linstor
+    sources:
+    - https://hub.docker.com/r/kvaps/linstor-controller
+    - https://hub.docker.com/r/kvaps/linstor-satellite
+    urls:
+    - https://kvaps.github.io/charts/linstor-1.7.2.tgz
+    version: 1.7.2
   nfs-server-provisioner:
   - apiVersion: v1
     appVersion: 2.3.0
-    created: "2020-08-26T16:55:35.762933441+02:00"
+    created: "2020-08-26T23:42:43.858833032+02:00"
     description: nfs-server-provisioner is an out-of-tree dynamic provisioner for
       Kubernetes. You can use it to quickly & easily deploy shared storage that works
       almost anywhere.
@@ -139,7 +139,7 @@ entries:
   opennebula:
   - apiVersion: v1
     appVersion: 5.8.5
-    created: "2020-08-26T16:55:35.765350512+02:00"
+    created: "2020-08-26T23:42:43.864447786+02:00"
     description: OpenNebula cloud computing platform
     digest: b62a2e2eea3006186a3b3da32e92f28d9e9c875a76fa191225165df96d8267c4
     home: https://github.com/kvaps/kube-opennebula
@@ -162,9 +162,9 @@ entries:
     version: 1.1.0
   pv-hostpath:
   - apiVersion: v1
-    created: "2020-08-26T16:55:35.765518988+02:00"
+    created: "2020-08-26T23:42:43.864831532+02:00"
     description: HostPath Physical Volume
-    digest: 8bfd9922aa6a2b014107a26aaf997e908316d4da0dd1e244e8d07042ad7b4992
+    digest: fb408785b157f2d37ac07c2b3ad6c940817723f454a18b03a888eb73dc3824f6
     maintainers:
     - email: kvapss@gmail.com
       name: kvaps
@@ -175,7 +175,7 @@ entries:
   stolon:
   - apiVersion: v1
     appVersion: 0.16.0
-    created: "2020-08-26T16:55:35.766793242+02:00"
+    created: "2020-08-26T23:42:43.867728433+02:00"
     description: Stolon - PostgreSQL cloud native High Availability.
     digest: 56d14d0112af55d949a73991ef8033300ea20aa81e7cec8e38ba25caa5041d8d
     home: https://github.com/sorintlab/stolon
@@ -192,4 +192,4 @@ entries:
     urls:
     - https://kvaps.github.io/charts/stolon-1.6.2.tgz
     version: 1.6.2
-generated: "2020-08-26T16:55:35.75218995+02:00"
+generated: "2020-08-26T23:42:43.841298165+02:00"
