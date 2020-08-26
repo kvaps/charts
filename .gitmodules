@@ -1,0 +1,24 @@
+[submodule "charts"]
+	path = charts
+	url = https://github.com/kvaps/charts
+[submodule "sources/kube-opennebula"]
+	path = sources/kube-opennebula
+	url = https://github.com/kvaps/kube-opennebula
+[submodule "sources/kube-fencing"]
+	path = sources/kube-fencing
+	url = https://github.com/kvaps/kube-fencing
+[submodule "sources/kube-linstor"]
+	path = sources/kube-linstor
+	url = https://github.com/kvaps/kube-linstor
+[submodule "sources/kubefarm"]
+	path = sources/kubefarm
+	url = https://github.com/kvaps/kubefarm
+[submodule "sources/cilium/cilium"]
+	path = sources/cilium/cilium
+	url = https://github.com/kvaps/cilium
+[submodule "sources/nfs-server-provisioner-chart"]
+	path = sources/nfs-server-provisioner-chart
+	url = https://github.com/kvaps/nfs-server-provisioner-chart
+[submodule "sources/stolon-chart"]
+	path = sources/stolon-chart
+	url = https://github.com/kvaps/stolon-chart
