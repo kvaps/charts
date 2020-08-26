@@ -45,6 +45,7 @@ check:
 	[ -n "${ALLTARGETS}" ]
 
 pull: check
+	git submodule update --init ${DST}
 	git submodule update --init --remote ${ALLTARGETS}; \
 	for i in ${ALLTARGETS}; do \
 		(cd "$$i" && git submodule update --init --recursive); \
