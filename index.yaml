@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   kube-fencing:
   - apiVersion: v1
-    created: "2020-08-26T16:49:23.499810087+02:00"
+    created: "2020-08-26T16:52:15.820074009+02:00"
     description: Fencing implementation for Kubernetes
     digest: f612d34ae3f7845cc8c357fe3e2b0c2f90146c3e1c661cbb264014e006fdc71f
     home: https://github.com/kvaps/kube-fencing
@@ -23,9 +23,9 @@ entries:
   kube-linstor:
   - apiVersion: v1
     appVersion: 1.7.2
-    created: "2020-08-26T16:49:23.50098633+02:00"
+    created: "2020-08-26T16:52:15.821658731+02:00"
     description: Linstor Controller and Satellites for Kubernetes
-    digest: b85680a2b6f11b3c3386919284026ab82e53bf4eb746b838801d9c29e2b75230
+    digest: 28a340b2862692cba0bbf8466e1ddf766be032b335db5111a0cffbda1258d498
     home: https://github.com/kvaps/kube-linstor
     keywords:
     - linstor
@@ -45,7 +45,7 @@ entries:
   kubefarm:
   - apiVersion: v1
     appVersion: 5.8.5
-    created: "2020-08-26T16:49:23.505007064+02:00"
+    created: "2020-08-26T16:52:15.828944848+02:00"
     dependencies:
     - name: kubernetes
       repository: file://vendor/github.com/kvaps/kubernetes-in-kubernetes/deploy/helm/kubernetes
@@ -70,7 +70,7 @@ entries:
   nfs-server-provisioner:
   - apiVersion: v1
     appVersion: 2.3.0
-    created: "2020-08-26T16:49:23.505974845+02:00"
+    created: "2020-08-26T16:52:15.830873146+02:00"
     description: nfs-server-provisioner is an out-of-tree dynamic provisioner for
       Kubernetes. You can use it to quickly & easily deploy shared storage that works
       almost anywhere.
@@ -97,7 +97,7 @@ entries:
   opennebula:
   - apiVersion: v1
     appVersion: 5.8.5
-    created: "2020-08-26T16:49:23.508413753+02:00"
+    created: "2020-08-26T16:52:15.836806849+02:00"
     description: OpenNebula cloud computing platform
     digest: b62a2e2eea3006186a3b3da32e92f28d9e9c875a76fa191225165df96d8267c4
     home: https://github.com/kvaps/kube-opennebula
@@ -118,10 +118,22 @@ entries:
     urls:
     - https://kvaps.github.io/charts/opennebula-1.1.0.tgz
     version: 1.1.0
+  pv-hostpath:
+  - apiVersion: v1
+    created: "2020-08-26T16:52:15.83818421+02:00"
+    description: HostPath Physical Volume
+    digest: 8bfd9922aa6a2b014107a26aaf997e908316d4da0dd1e244e8d07042ad7b4992
+    maintainers:
+    - email: kvapss@gmail.com
+      name: kvaps
+    name: pv-hostpath
+    urls:
+    - https://kvaps.github.io/charts/pv-hostpath-1.0.0.tgz
+    version: 1.0.0
   stolon:
   - apiVersion: v1
     appVersion: 0.16.0
-    created: "2020-08-26T16:49:23.509891813+02:00"
+    created: "2020-08-26T16:52:15.841264305+02:00"
     description: Stolon - PostgreSQL cloud native High Availability.
     digest: 56d14d0112af55d949a73991ef8033300ea20aa81e7cec8e38ba25caa5041d8d
     home: https://github.com/sorintlab/stolon
@@ -138,4 +150,4 @@ entries:
     urls:
     - https://kvaps.github.io/charts/stolon-1.6.2.tgz
     version: 1.6.2
-generated: "2020-08-26T16:49:23.499279759+02:00"
+generated: "2020-08-26T16:52:15.81954824+02:00"
