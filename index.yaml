@@ -2,7 +2,27 @@ apiVersion: v1
 entries:
   kube-fencing:
   - apiVersion: v1
-    created: "2020-08-26T16:52:15.820074009+02:00"
+    appVersion: 2.0.1
+    created: "2020-08-26T16:54:40.064986131+02:00"
+    description: Fencing implementation for Kubernetes
+    digest: a8457eaec6aa37d3fb34991954b90a30493690eeb322b2855123a22ed7f5cca4
+    home: https://github.com/kvaps/kube-fencing
+    keywords:
+    - fencing
+    - fence
+    maintainers:
+    - email: kvapss@gmail.com
+      name: kvaps
+    name: kube-fencing
+    sources:
+    - https://hub.docker.com/r/kvaps/kube-fencing-controller
+    - https://hub.docker.com/r/kvaps/kube-fencing-switcher
+    - https://hub.docker.com/r/kvaps/kube-fencing-agents
+    urls:
+    - https://kvaps.github.io/charts/kube-fencing-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v1
+    created: "2020-08-26T16:54:40.064572033+02:00"
     description: Fencing implementation for Kubernetes
     digest: f612d34ae3f7845cc8c357fe3e2b0c2f90146c3e1c661cbb264014e006fdc71f
     home: https://github.com/kvaps/kube-fencing
@@ -23,7 +43,7 @@ entries:
   kube-linstor:
   - apiVersion: v1
     appVersion: 1.7.2
-    created: "2020-08-26T16:52:15.821658731+02:00"
+    created: "2020-08-26T16:54:40.065930094+02:00"
     description: Linstor Controller and Satellites for Kubernetes
     digest: 28a340b2862692cba0bbf8466e1ddf766be032b335db5111a0cffbda1258d498
     home: https://github.com/kvaps/kube-linstor
@@ -45,7 +65,7 @@ entries:
   kubefarm:
   - apiVersion: v1
     appVersion: 5.8.5
-    created: "2020-08-26T16:52:15.828944848+02:00"
+    created: "2020-08-26T16:54:40.072203704+02:00"
     dependencies:
     - name: kubernetes
       repository: file://vendor/github.com/kvaps/kubernetes-in-kubernetes/deploy/helm/kubernetes
@@ -70,7 +90,7 @@ entries:
   nfs-server-provisioner:
   - apiVersion: v1
     appVersion: 2.3.0
-    created: "2020-08-26T16:52:15.830873146+02:00"
+    created: "2020-08-26T16:54:40.074265877+02:00"
     description: nfs-server-provisioner is an out-of-tree dynamic provisioner for
       Kubernetes. You can use it to quickly & easily deploy shared storage that works
       almost anywhere.
@@ -97,7 +117,7 @@ entries:
   opennebula:
   - apiVersion: v1
     appVersion: 5.8.5
-    created: "2020-08-26T16:52:15.836806849+02:00"
+    created: "2020-08-26T16:54:40.079985888+02:00"
     description: OpenNebula cloud computing platform
     digest: b62a2e2eea3006186a3b3da32e92f28d9e9c875a76fa191225165df96d8267c4
     home: https://github.com/kvaps/kube-opennebula
@@ -120,7 +140,7 @@ entries:
     version: 1.1.0
   pv-hostpath:
   - apiVersion: v1
-    created: "2020-08-26T16:52:15.83818421+02:00"
+    created: "2020-08-26T16:54:40.080336316+02:00"
     description: HostPath Physical Volume
     digest: 8bfd9922aa6a2b014107a26aaf997e908316d4da0dd1e244e8d07042ad7b4992
     maintainers:
@@ -133,7 +153,7 @@ entries:
   stolon:
   - apiVersion: v1
     appVersion: 0.16.0
-    created: "2020-08-26T16:52:15.841264305+02:00"
+    created: "2020-08-26T16:54:40.083248545+02:00"
     description: Stolon - PostgreSQL cloud native High Availability.
     digest: 56d14d0112af55d949a73991ef8033300ea20aa81e7cec8e38ba25caa5041d8d
     home: https://github.com/sorintlab/stolon
@@ -150,4 +170,4 @@ entries:
     urls:
     - https://kvaps.github.io/charts/stolon-1.6.2.tgz
     version: 1.6.2
-generated: "2020-08-26T16:52:15.81954824+02:00"
+generated: "2020-08-26T16:54:40.061703456+02:00"
