@@ -3,7 +3,7 @@ entries:
   kube-fencing:
   - apiVersion: v1
     appVersion: 2.0.1
-    created: "2020-08-27T20:18:34.051684186+02:00"
+    created: "2020-08-27T20:23:07.596697536+02:00"
     description: Fencing implementation for Kubernetes
     digest: a8457eaec6aa37d3fb34991954b90a30493690eeb322b2855123a22ed7f5cca4
     home: https://github.com/kvaps/kube-fencing
@@ -22,7 +22,7 @@ entries:
     - https://kvaps.github.io/charts/kube-fencing-2.0.1.tgz
     version: 2.0.1
   - apiVersion: v1
-    created: "2020-08-27T20:18:34.049748588+02:00"
+    created: "2020-08-27T20:23:07.596210882+02:00"
     description: Fencing implementation for Kubernetes
     digest: f612d34ae3f7845cc8c357fe3e2b0c2f90146c3e1c661cbb264014e006fdc71f
     home: https://github.com/kvaps/kube-fencing
@@ -42,8 +42,32 @@ entries:
     version: 2.0.0
   kubefarm:
   - apiVersion: v1
+    appVersion: 1.19.0
+    created: "2020-08-27T20:23:07.624648124+02:00"
+    dependencies:
+    - name: kubernetes
+      repository: file://vendor/github.com/kvaps/kubernetes-in-kubernetes/deploy/helm/kubernetes
+      tags:
+      - kubernetes
+      version: 0.3.0
+    description: Kubefarm cluster
+    digest: 5064c576d4e0ac4ea92918f870710564eba2d7e9f2b99285ec940c2d323af327
+    home: https://github.com/kvaps/kubefarm
+    keywords:
+    - kubernetes
+    - ltsp
+    maintainers:
+    - email: kvapss@gmail.com
+      name: kvaps
+    name: kubefarm
+    sources:
+    - https://github.com/kvaps/kubefarm
+    urls:
+    - https://kvaps.github.io/charts/kubefarm-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v1
     appVersion: 1.18.6
-    created: "2020-08-27T20:18:34.074567257+02:00"
+    created: "2020-08-27T20:23:07.617668968+02:00"
     dependencies:
     - name: kubernetes
       repository: file://vendor/github.com/kvaps/kubernetes-in-kubernetes/deploy/helm/kubernetes
@@ -67,7 +91,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 1.18.6
-    created: "2020-08-27T20:18:34.064054422+02:00"
+    created: "2020-08-27T20:23:07.609469719+02:00"
     dependencies:
     - name: kubernetes
       repository: file://vendor/github.com/kvaps/kubernetes-in-kubernetes/deploy/helm/kubernetes
@@ -92,7 +116,7 @@ entries:
   kubernetes:
   - apiVersion: v1
     appVersion: 1.19.0
-    created: "2020-08-27T20:18:34.093516767+02:00"
+    created: "2020-08-27T20:23:07.637819597+02:00"
     description: Production-Grade Container Scheduling and Management
     digest: 410f710227370a4ef6c99cd83310d40876e142c4f3d8c590a2d166c0503fa87b
     home: https://github.com/kvaps/kubernetes-in-kubernetes
@@ -113,7 +137,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 1.18.6
-    created: "2020-08-27T20:18:34.088658968+02:00"
+    created: "2020-08-27T20:23:07.634353633+02:00"
     description: Production-Grade Container Scheduling and Management
     digest: b060db12b02663bca5c016916686011c64d2c67373f206fe837793f1fa414ac0
     home: https://github.com/kvaps/kubernetes-in-kubernetes
@@ -134,7 +158,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 1.18.6
-    created: "2020-08-27T20:18:34.079840737+02:00"
+    created: "2020-08-27T20:23:07.628653231+02:00"
     description: Production-Grade Container Scheduling and Management
     digest: 765d0c9df58593df6319d23f87d63557a320242fe27f1b8c4c60c52738ec86e5
     home: https://github.com/kvaps/kubernetes-in-kubernetes
@@ -156,7 +180,7 @@ entries:
   linstor:
   - apiVersion: v1
     appVersion: 1.7.2
-    created: "2020-08-27T20:18:34.097315125+02:00"
+    created: "2020-08-27T20:23:07.640171978+02:00"
     description: Containerized LINSTOR SDS for Kubernetes, ready for production use,
     digest: 6e8adbf8ce2df4a6e9fe783514fd152b11f17c49e01bb8e9e1ebc82d5f9c8ebc
     home: https://github.com/kvaps/kube-linstor
@@ -178,7 +202,7 @@ entries:
   nfs-server-provisioner:
   - apiVersion: v1
     appVersion: 2.3.0
-    created: "2020-08-27T20:18:34.104306694+02:00"
+    created: "2020-08-27T20:23:07.642281653+02:00"
     description: nfs-server-provisioner is an out-of-tree dynamic provisioner for
       Kubernetes. You can use it to quickly & easily deploy shared storage that works
       almost anywhere.
@@ -205,7 +229,7 @@ entries:
   opennebula:
   - apiVersion: v1
     appVersion: 5.8.5
-    created: "2020-08-27T20:18:34.125277813+02:00"
+    created: "2020-08-27T20:23:07.649065702+02:00"
     description: OpenNebula cloud computing platform
     digest: b62a2e2eea3006186a3b3da32e92f28d9e9c875a76fa191225165df96d8267c4
     home: https://github.com/kvaps/kube-opennebula
@@ -228,7 +252,7 @@ entries:
     version: 1.1.0
   pv-hostpath:
   - apiVersion: v1
-    created: "2020-08-27T20:18:34.126149922+02:00"
+    created: "2020-08-27T20:23:07.649539903+02:00"
     description: HostPath Physical Volume
     digest: fb408785b157f2d37ac07c2b3ad6c940817723f454a18b03a888eb73dc3824f6
     maintainers:
@@ -241,7 +265,7 @@ entries:
   stolon:
   - apiVersion: v1
     appVersion: 0.16.0
-    created: "2020-08-27T20:18:34.131563194+02:00"
+    created: "2020-08-27T20:23:07.654642172+02:00"
     description: Stolon - PostgreSQL cloud native High Availability.
     digest: 56d14d0112af55d949a73991ef8033300ea20aa81e7cec8e38ba25caa5041d8d
     home: https://github.com/sorintlab/stolon
@@ -258,4 +282,4 @@ entries:
     urls:
     - https://kvaps.github.io/charts/stolon-1.6.2.tgz
     version: 1.6.2
-generated: "2020-08-27T20:18:34.034498781+02:00"
+generated: "2020-08-27T20:23:07.595528309+02:00"
