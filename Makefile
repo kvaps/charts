@@ -45,16 +45,14 @@ check:
 	[ -n "${ALLTARGETS}" ]
 
 pull: check
-	git submodule update --init ${DST}
-	git submodule update --init --remote ${ALLTARGETS}; \
-	for i in ${ALLTARGETS}; do \
-		(cd "$$i" && git submodule update --init --recursive); \
-	done
+	git submodule update --init ${DST}; \
+	git submodule update --init --remote ${ALLTARGETS}
 
 packages: check
 	for i in ${TARGETS}; do \
 		dst="$$(dirname "$$i" | sed 's|^${SRC}|${DST}|')"; \
 	  for p in $$(cd $$i; git ls-files | sed -n 's|Chart.yaml$$|./|p'); do \
+		  (cd "$$i" && git submodule update --init --recursive); \
 	    src=$$i/$$p; \
 		  helm package "$$src" -d "$$dst"; \
 		done; \
