@@ -73,7 +73,7 @@ index: check
 
 commit:
 	(cd ${DST} && git add . && git diff --quiet --exit-code --cached && exit 0 || git commit -m "${MSG}"); \
-	git add .gitmodules charts/ sources/; \
+	git add .gitmodules ${SRC} ${DST}; \
 	git diff --quiet --exit-code --cached && exit 0 || git commit -m "${MSG}"
 
 push:
