@@ -1,27 +1,36 @@
 [submodule "charts"]
 	path = charts
 	url = https://github.com/kvaps/charts
+	branch = charts
 [submodule "sources/kube-opennebula"]
 	path = sources/kube-opennebula
 	url = https://github.com/kvaps/kube-opennebula
+	branch = master
 [submodule "sources/kube-fencing"]
 	path = sources/kube-fencing
 	url = https://github.com/kvaps/kube-fencing
+	branch = master
 [submodule "sources/kube-linstor"]
 	path = sources/kube-linstor
 	url = https://github.com/kvaps/kube-linstor
+	branch = master
 [submodule "sources/kubefarm"]
 	path = sources/kubefarm
 	url = https://github.com/kvaps/kubefarm
+	branch = master
 [submodule "sources/cilium/cilium"]
 	path = sources/cilium/cilium
 	url = https://github.com/kvaps/cilium
+	branch = k8s-require-ipv6-pod-cidr
 [submodule "sources/nfs-server-provisioner-chart"]
 	path = sources/nfs-server-provisioner-chart
 	url = https://github.com/kvaps/nfs-server-provisioner-chart
+	branch = master
 [submodule "sources/stolon-chart"]
 	path = sources/stolon-chart
 	url = https://github.com/kvaps/stolon-chart
+	branch = master
 [submodule "sources/kubernetes-in-kubernetes"]
 	path = sources/kubernetes-in-kubernetes
 	url = https://github.com/kvaps/kubernetes-in-kubernetes
+	branch = master
