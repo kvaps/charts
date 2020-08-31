@@ -14,7 +14,7 @@ FORCE ?= 0
 # Specify commit message
 MSG = UPD $(shell date -R)
 # Specify url for HELM repository
-URL = https://kvaps.github.io/charts/
+URL = "/charts"
 
 
 # Detect which submodules were changed
@@ -54,8 +54,10 @@ packages: check
 	  for p in $$(cd $$i; git ls-files | sed -n 's|Chart.yaml$$|./|p'); do \
 		  (cd "$$i" && git submodule update --init --recursive); \
 	    src=$$i/$$p; \
-		  helm package "$$src" -d "$$dst"; \
+		  helm package "$$src" -d "$$dst/tmp/"; \
 		done; \
+	  mv -vn "$$dst/tmp/"* "$$dst/"; \
+	  rm -vrf "$$dst/tmp/"; \
 	done
 
 index: check
