@@ -3,9 +3,9 @@ entries:
   agent:
   - apiVersion: v2
     appVersion: 1.8.90
-    created: "2020-09-01T11:12:40.569618121+02:00"
+    created: "2020-09-01T14:48:38.709660893+02:00"
     description: Helm chart for cilium-agent DaemonSet
-    digest: e02531053b621b85d8e487947ec29bfd37896d04b10be8a1837f71631bc74578
+    digest: 773507aed5c6b4f5646b3d7844d303e050bdb93bf3651354d856128f630f30f4
     name: agent
     sources:
     - https://github.com/cilium/cilium
@@ -15,7 +15,7 @@ entries:
   cilium:
   - apiVersion: v2
     appVersion: 1.8.90
-    created: "2020-09-01T11:12:40.573959942+02:00"
+    created: "2020-09-01T14:48:38.71472447+02:00"
     dependencies:
     - condition: agent.enabled
       name: agent
@@ -54,7 +54,7 @@ entries:
       repository: ""
       version: 1.8.90
     description: Helm chart for Cilium
-    digest: 29434f7459e7c5b60609c4cc65672b86966bb95ddb628060a23bc0e39c21a8e3
+    digest: 8ed340b59abc4c240f399c4b53f41da03903fc1927c842b6693453b146ecf88f
     home: https://cilium.io/
     name: cilium
     sources:
@@ -65,9 +65,9 @@ entries:
   cnp-second-namespaces:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-09-01T11:12:40.574164416+02:00"
+    created: "2020-09-01T14:48:38.714864613+02:00"
     description: A Helm chart for Kubernetes
-    digest: d78ca3b3a4429be882b8af45a86a86188f240e0c03903c4c1e099476b7a1e2b4
+    digest: 672891b8f01606c0774b9e5d89af59a1c0bcdde724eae7782eb4d25e384577af
     name: cnp-second-namespaces
     urls:
     - https://kvaps.github.io/charts/cilium/cnp-second-namespaces-0.1.0.tgz
@@ -75,9 +75,9 @@ entries:
   config:
   - apiVersion: v2
     appVersion: 1.8.90
-    created: "2020-09-01T11:12:40.574603401+02:00"
+    created: "2020-09-01T14:48:38.718006178+02:00"
     description: Helm chart for Cilium configuration
-    digest: 717b687fa5533f5854ac80a8571dc41a00a38e574df441ba03b20c38e0fa8062
+    digest: 07f8cab57baeae99b3b401f1a5c0f93243e6e7c303e7f89c9365bc0d74d86035
     name: config
     sources:
     - https://github.com/cilium/cilium
@@ -87,9 +87,9 @@ entries:
   hubble-relay:
   - apiVersion: v2
     appVersion: 1.8.90
-    created: "2020-09-01T11:12:40.574910388+02:00"
+    created: "2020-09-01T14:48:38.718953308+02:00"
     description: Helm chart for running Hubble Relay
-    digest: cb7e725dd15af32958e866c7d560a4ed136a0819329a1804ac3092e74a5ad752
+    digest: 018bd5a94bcc18ec2f4cd9d76851c36a7a07e5c50eee2ac5ef4573a5d6e36023
     name: hubble-relay
     sources:
     - https://github.com/cilium/cilium
@@ -99,9 +99,9 @@ entries:
   hubble-ui:
   - apiVersion: v2
     appVersion: 1.8.90
-    created: "2020-09-01T11:12:40.575236781+02:00"
+    created: "2020-09-01T14:48:38.719819055+02:00"
     description: Helm chart for the Hubble UI
-    digest: c92806b77adc3398863759b5cba0f248a01e4b06f1be567f3e08262ba3d8f93d
+    digest: 6d95d03369950bef073f65a7ca17f1ebaf478f063d4dc1269b2d5a2bd58748cf
     name: hubble-ui
     sources:
     - https://github.com/cilium/hubble-ui
@@ -111,9 +111,9 @@ entries:
   managed-etcd:
   - apiVersion: v2
     appVersion: 1.8.90
-    created: "2020-09-01T11:12:40.575493163+02:00"
+    created: "2020-09-01T14:48:38.720080787+02:00"
     description: Helm chart for managed etcd
-    digest: 0d7a9b9bfb3ba97d5bf26f3662d6efd74b980bb0becd66c0e0ec6917f6c8b025
+    digest: 5665dca7e4aebae37444e6bdd728b506ea1fc9f161286dc490b5c989cef02b5e
     name: managed-etcd
     sources:
     - https://github.com/cilium/cilium
@@ -123,9 +123,9 @@ entries:
   nodeinit:
   - apiVersion: v2
     appVersion: 1.8.90
-    created: "2020-09-01T11:12:40.575770504+02:00"
+    created: "2020-09-01T14:48:38.720355523+02:00"
     description: Helm chart for node initialization
-    digest: 49d5b7eb474f95aa4202eda33684da22bc76226ef4ac33eca61eeb3279e038d7
+    digest: a4397605e9f967f09d02b9df73f5b3ba6b33d8a7dc5ad72bfd54f0ccf5725913
     name: nodeinit
     sources:
     - https://github.com/cilium/cilium
@@ -135,9 +135,9 @@ entries:
   operator:
   - apiVersion: v2
     appVersion: 1.8.90
-    created: "2020-09-01T11:12:40.576097539+02:00"
+    created: "2020-09-01T14:48:38.720669624+02:00"
     description: Helm chart for cilium-operator deployment
-    digest: 664ef2ec67e185302ded2992b0659527c9f0d6a9cfaf92fc954b8b36c4c6b7fc
+    digest: 773374ced65e6da2d2f71dc2426d069ada05412aa83753797998be35cac8815b
     name: operator
     sources:
     - https://github.com/cilium/cilium
@@ -147,9 +147,9 @@ entries:
   preflight:
   - apiVersion: v2
     appVersion: 1.8.90
-    created: "2020-09-01T11:12:40.577164123+02:00"
+    created: "2020-09-01T14:48:38.720943108+02:00"
     description: Helm chart for pre-flight functionality
-    digest: abcfa84c9a683181d82d37ca75e2a92e6b61d59f74d2b8931274ff84c47bb347
+    digest: e9eba945fc760d16014190debe2a1c46abaa24528309545b4a4ea5669ee76ee8
     name: preflight
     sources:
     - https://github.com/cilium/cilium
@@ -159,10 +159,10 @@ entries:
   prometheus:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-09-01T11:12:40.580900546+02:00"
+    created: "2020-09-01T14:48:38.722995615+02:00"
     description: A simple Helm chart to deploy Prometheus and Grafana with Cilium
       dashboard
-    digest: 8c8f2b4de69c387cdbba95fd2291b31e0eaa38785b10410d422409f02caff179
+    digest: 4a08a4da8432691d623e147270d04a2ab626918ae81e4f49d325a5cc895280b7
     name: prometheus
     type: application
     urls:
@@ -171,9 +171,9 @@ entries:
   prometheus-crd:
   - apiVersion: v2
     appVersion: 1.8.90
-    created: "2020-09-01T11:12:40.581215297+02:00"
+    created: "2020-09-01T14:48:38.723224405+02:00"
     description: Helm chart to install required Prometheus CRDs
-    digest: 608bde0cac731a0958c1fcc5d478f73a3c4b05887aa3601d8a45e956154c4ba5
+    digest: 3474dec322cd9071b5beb4a2c75910d9e45e28bc60c270541fc8a8e3408b03ab
     name: prometheus-crd
     sources:
     - https://github.com/cilium/cilium
@@ -184,11 +184,11 @@ entries:
   registry-adder:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-09-01T11:12:40.581421074+02:00"
+    created: "2020-09-01T14:48:38.723391559+02:00"
     description: A Helm chart for Kubernetes
-    digest: 2ed724d5bfdd7d41103cccc15231cfbd5896ffd40d6b22bbe2535daaa07e90f3
+    digest: 71b86927f3364ad0cfcdc69597e89f043d2bdc25bddb347f466ea154276303c2
     name: registry-adder
     urls:
     - https://kvaps.github.io/charts/cilium/registry-adder-0.1.0.tgz
     version: 0.1.0
-generated: "2020-09-01T11:12:40.568848535+02:00"
+generated: "2020-09-01T14:48:38.709141537+02:00"
