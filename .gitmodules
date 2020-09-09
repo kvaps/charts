@@ -18,10 +18,6 @@
 	path = sources/kubefarm
 	url = https://github.com/kvaps/kubefarm
 	branch = master
-[submodule "sources/cilium/cilium"]
-	path = sources/cilium/cilium
-	url = https://github.com/kvaps/cilium
-	branch = k8s-require-ipv6-pod-cidr
 [submodule "sources/nfs-server-provisioner-chart"]
 	path = sources/nfs-server-provisioner-chart
 	url = https://github.com/kvaps/nfs-server-provisioner-chart
