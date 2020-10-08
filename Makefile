@@ -45,14 +45,14 @@ check:
 	[ -n "${ALLTARGETS}" ]
 
 pull: check
-	git submodule update --init ${DST}; \
+	git submodule update --init ${DST}
 	git submodule update --init --remote ${ALLTARGETS}
 
 packages: check
-	for i in ${TARGETS}; do \
+	@for i in ${TARGETS}; do \
 		dst="$$(dirname "$$i" | sed 's|^${SRC}|${DST}|')"; \
 	  for p in $$(cd $$i; git ls-files | sed -n 's|Chart.yaml$$|./|p'); do \
-		  (cd "$$i" && git submodule update --init --recursive); \
+		  (set -x; cd "$$i" && git submodule update --init --recursive); \
 	    src=$$i/$$p; \
 		  helm package "$$src" -d "$$dst/tmp/"; \
 		done; \
@@ -61,7 +61,7 @@ packages: check
 	done
 
 index: check
-	for i in ${TARGETS}; do \
+	@for i in ${TARGETS}; do \
 		echo "$$(dirname "$$i" | sed 's|^${SRC}|${DST}|')"; \
 	done | sort -u | while read i; do \
     mkdir -p "$$i/tmp"; \
@@ -72,10 +72,10 @@ index: check
 	done
 
 commit:
-	(cd ${DST} && git add . && git diff --quiet --exit-code --cached && exit 0 || git commit -m "${MSG}"); \
-	git add .gitmodules ${SRC} ${DST}; \
+	@(set -x; cd ${DST} && git add . && git diff --quiet --exit-code --cached && exit 0 || git commit -m "${MSG}")
+	git add .gitmodules ${SRC} ${DST}
 	git diff --quiet --exit-code --cached && exit 0 || git commit -m "${MSG}"
 
 push:
-	(cd ${DST} && git push); \
+	cd ${DST} && git push
 	git push
