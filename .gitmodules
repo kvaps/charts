@@ -18,10 +18,6 @@
 	path = sources/kubefarm
 	url = https://github.com/kvaps/kubefarm
 	branch = master
-[submodule "sources/nfs-server-provisioner-chart"]
-	path = sources/nfs-server-provisioner-chart
-	url = https://github.com/kvaps/nfs-server-provisioner-chart
-	branch = master
 [submodule "sources/stolon-chart"]
 	path = sources/stolon-chart
 	url = https://github.com/kvaps/stolon-chart
@@ -30,3 +26,6 @@
 	path = sources/kubernetes-in-kubernetes
 	url = https://github.com/kvaps/kubernetes-in-kubernetes
 	branch = master
+[submodule "sources/nfs-ganesha-server-and-external-provisioner"]
+	path = sources/nfs-ganesha-server-and-external-provisioner
+	url = https://github.com/kubernetes-sigs/nfs-ganesha-server-and-external-provisioner
