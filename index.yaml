@@ -3,7 +3,7 @@ entries:
   kube-fencing:
   - apiVersion: v1
     appVersion: 2.1.0
-    created: "2021-02-01T17:42:40.710899718+01:00"
+    created: "2021-02-08T17:58:48.809002796+01:00"
     description: Fencing implementation for Kubernetes
     digest: b8969a652abd60c208ddfd9da96b6398666b25cb1d34afd24ec118025b860f50
     home: https://github.com/kvaps/kube-fencing
@@ -24,7 +24,7 @@ entries:
     version: 2.1.0
   - apiVersion: v1
     appVersion: 2.0.1
-    created: "2021-02-01T17:42:40.71043255+01:00"
+    created: "2021-02-08T17:58:48.807825543+01:00"
     description: Fencing implementation for Kubernetes
     digest: f5827468c02cf30425fafaf2c4dd633e6a5ae47f65d4c42a9bff2d6b9213d0b0
     home: https://github.com/kvaps/kube-fencing
@@ -44,7 +44,7 @@ entries:
     - https://kvaps.github.io/charts/kube-fencing-2.0.1.tgz
     version: 2.0.1
   - apiVersion: v1
-    created: "2021-02-01T17:42:40.709978737+01:00"
+    created: "2021-02-08T17:58:48.804234293+01:00"
     description: Fencing implementation for Kubernetes
     digest: f612d34ae3f7845cc8c357fe3e2b0c2f90146c3e1c661cbb264014e006fdc71f
     home: https://github.com/kvaps/kube-fencing
@@ -65,7 +65,26 @@ entries:
   kubefarm:
   - apiVersion: v1
     appVersion: 1.19.0
-    created: "2021-02-01T17:42:40.776363342+01:00"
+    created: "2021-02-08T17:58:48.932081707+01:00"
+    description: Kubefarm cluster
+    digest: e61754de90054d2124dc9b6d24ca34ebe9dcd730be2efb39d562c1b78995256a
+    home: https://github.com/kvaps/kubefarm
+    icon: https://avatars1.githubusercontent.com/u/68351149?s=150&u=b8b4cb0f364281274159d4098090c0e229370cf0
+    keywords:
+    - kubernetes
+    - ltsp
+    maintainers:
+    - email: kvapss@gmail.com
+      name: kvaps
+    name: kubefarm
+    sources:
+    - https://github.com/kvaps/kubefarm
+    urls:
+    - https://kvaps.github.io/charts/kubefarm-1.9.2.tgz
+    version: 1.9.2
+  - apiVersion: v1
+    appVersion: 1.19.0
+    created: "2021-02-08T17:58:48.923233918+01:00"
     description: Kubefarm cluster
     digest: 0bea627316cf82d8f75a063d6316f51c1d0904f79c2514eb7eecb1c1e3e9fd81
     home: https://github.com/kvaps/kubefarm
@@ -84,7 +103,7 @@ entries:
     version: 0.9.1
   - apiVersion: v1
     appVersion: 1.19.0
-    created: "2021-02-01T17:42:40.772206569+01:00"
+    created: "2021-02-08T17:58:48.915881598+01:00"
     description: Kubefarm cluster
     digest: d0567340eb9808ac8411bc4a88b4de8d29b82c5e718e190c437e16569b2c4c81
     home: https://github.com/kvaps/kubefarm
@@ -103,7 +122,7 @@ entries:
     version: 0.9.0
   - apiVersion: v1
     appVersion: 1.19.0
-    created: "2021-02-01T17:42:40.767688165+01:00"
+    created: "2021-02-08T17:58:48.908574284+01:00"
     description: Kubefarm cluster
     digest: 75012dca6e54fdd4f2a03ce56d0df8a696ee29aaf4b93386f23b7c6de8bdb345
     home: https://github.com/kvaps/kubefarm
@@ -122,7 +141,7 @@ entries:
     version: 0.8.0
   - apiVersion: v1
     appVersion: 1.19.0
-    created: "2021-02-01T17:42:40.761907068+01:00"
+    created: "2021-02-08T17:58:48.899401653+01:00"
     description: Kubefarm cluster
     digest: ebfb34343b6a4149de019a68c0a34c1e9e407c2d8aa787a517c171441e340c8b
     home: https://github.com/kvaps/kubefarm
@@ -141,7 +160,7 @@ entries:
     version: 0.7.1
   - apiVersion: v1
     appVersion: 1.19.0
-    created: "2021-02-01T17:42:40.757587709+01:00"
+    created: "2021-02-08T17:58:48.892101794+01:00"
     description: Kubefarm cluster
     digest: 8c23acca056d42fe7be0f464a22385c02e1a9f459c3a682c45fda72e3ca63eb5
     home: https://github.com/kvaps/kubefarm
@@ -160,7 +179,7 @@ entries:
     version: 0.7.0
   - apiVersion: v1
     appVersion: 1.19.0
-    created: "2021-02-01T17:42:40.753560509+01:00"
+    created: "2021-02-08T17:58:48.884753191+01:00"
     description: Kubefarm cluster
     digest: 15fe577375ee6d6b9dc15534c640ef16b3dd01907f6fa3873728ca7ba904d609
     home: https://github.com/kvaps/kubefarm
@@ -179,7 +198,7 @@ entries:
     version: 0.6.1
   - apiVersion: v1
     appVersion: 1.19.0
-    created: "2021-02-01T17:42:40.749960051+01:00"
+    created: "2021-02-08T17:58:48.877038231+01:00"
     description: Kubefarm cluster
     digest: fc1ddcba5e8ab496e49217167fb6a75df097a4525016c951205286e82850c552
     home: https://github.com/kvaps/kubefarm
@@ -198,7 +217,7 @@ entries:
     version: 0.6.0
   - apiVersion: v1
     appVersion: 1.19.0
-    created: "2021-02-01T17:42:40.744897976+01:00"
+    created: "2021-02-08T17:58:48.867830735+01:00"
     dependencies:
     - name: kubernetes
       repository: file://vendor/github.com/kvaps/kubernetes-in-kubernetes/deploy/helm/kubernetes
@@ -223,7 +242,7 @@ entries:
     version: 0.5.2
   - apiVersion: v1
     appVersion: 1.19.0
-    created: "2021-02-01T17:42:40.740995571+01:00"
+    created: "2021-02-08T17:58:48.861551162+01:00"
     dependencies:
     - name: kubernetes
       repository: file://vendor/github.com/kvaps/kubernetes-in-kubernetes/deploy/helm/kubernetes
@@ -248,7 +267,7 @@ entries:
     version: 0.5.1
   - apiVersion: v1
     appVersion: 1.19.0
-    created: "2021-02-01T17:42:40.737278794+01:00"
+    created: "2021-02-08T17:58:48.85512312+01:00"
     dependencies:
     - name: kubernetes
       repository: file://vendor/github.com/kvaps/kubernetes-in-kubernetes/deploy/helm/kubernetes
@@ -273,7 +292,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: 1.19.0
-    created: "2021-02-01T17:42:40.73252626+01:00"
+    created: "2021-02-08T17:58:48.84795072+01:00"
     dependencies:
     - name: kubernetes
       repository: file://vendor/github.com/kvaps/kubernetes-in-kubernetes/deploy/helm/kubernetes
@@ -298,7 +317,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: 1.19.0
-    created: "2021-02-01T17:42:40.728991716+01:00"
+    created: "2021-02-08T17:58:48.840529502+01:00"
     dependencies:
     - name: kubernetes
       repository: file://vendor/github.com/kvaps/kubernetes-in-kubernetes/deploy/helm/kubernetes
@@ -323,7 +342,7 @@ entries:
     version: 0.3.2
   - apiVersion: v1
     appVersion: 1.19.0
-    created: "2021-02-01T17:42:40.725393121+01:00"
+    created: "2021-02-08T17:58:48.833850648+01:00"
     dependencies:
     - name: kubernetes
       repository: file://vendor/github.com/kvaps/kubernetes-in-kubernetes/deploy/helm/kubernetes
@@ -347,7 +366,7 @@ entries:
     version: 0.3.1
   - apiVersion: v1
     appVersion: 1.19.0
-    created: "2021-02-01T17:42:40.721861583+01:00"
+    created: "2021-02-08T17:58:48.828380767+01:00"
     dependencies:
     - name: kubernetes
       repository: file://vendor/github.com/kvaps/kubernetes-in-kubernetes/deploy/helm/kubernetes
@@ -371,7 +390,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 1.18.6
-    created: "2021-02-01T17:42:40.716711402+01:00"
+    created: "2021-02-08T17:58:48.822558995+01:00"
     dependencies:
     - name: kubernetes
       repository: file://vendor/github.com/kvaps/kubernetes-in-kubernetes/deploy/helm/kubernetes
@@ -395,7 +414,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 1.18.6
-    created: "2021-02-01T17:42:40.71386934+01:00"
+    created: "2021-02-08T17:58:48.816316823+01:00"
     dependencies:
     - name: kubernetes
       repository: file://vendor/github.com/kvaps/kubernetes-in-kubernetes/deploy/helm/kubernetes
@@ -420,7 +439,29 @@ entries:
   kubernetes:
   - apiVersion: v1
     appVersion: v1.20.2
-    created: "2021-02-01T17:42:40.807204206+01:00"
+    created: "2021-02-08T17:58:48.986988767+01:00"
+    description: Production-Grade Container Scheduling and Management
+    digest: 9293cc7ad13a07d3078a431ed033acc746a5ed24b15f3f7f564b43f3fc6f5fd0
+    home: https://github.com/kvaps/kubernetes-in-kubernetes
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/723px-Kubernetes_logo_without_workmark.svg.png
+    keywords:
+    - kubernetes
+    - go
+    - cncf
+    - containers
+    maintainers:
+    - email: kvapss@gmail.com
+      name: kvaps
+    name: kubernetes
+    sources:
+    - https://github.com/kvaps/kubernetes-in-kubernetes
+    - https://github.com/kubernetes/kubernetes
+    urls:
+    - https://kvaps.github.io/charts/kubernetes-1.9.1.tgz
+    version: 1.9.1
+  - apiVersion: v1
+    appVersion: v1.20.2
+    created: "2021-02-08T17:58:48.983365937+01:00"
     description: Production-Grade Container Scheduling and Management
     digest: c48bd152c6195de1634c06ba0e332938d95cd0aea3f1e289aa6e5f604a77e315
     home: https://github.com/kvaps/kubernetes-in-kubernetes
@@ -442,7 +483,7 @@ entries:
     version: 0.9.0
   - apiVersion: v1
     appVersion: 1.19.3
-    created: "2021-02-01T17:42:40.804792452+01:00"
+    created: "2021-02-08T17:58:48.978356863+01:00"
     description: Production-Grade Container Scheduling and Management
     digest: 5a1693b56b86ec1e8ae217de77dec8dc9f711343a83b34ab74826742762f528b
     home: https://github.com/kvaps/kubernetes-in-kubernetes
@@ -464,7 +505,7 @@ entries:
     version: 0.8.0
   - apiVersion: v1
     appVersion: 1.19.3
-    created: "2021-02-01T17:42:40.802368576+01:00"
+    created: "2021-02-08T17:58:48.974525191+01:00"
     description: Production-Grade Container Scheduling and Management
     digest: f39353cb082c48b4c478068bf4929fa5e1de12e093da6c5fca37f33323c96d0c
     home: https://github.com/kvaps/kubernetes-in-kubernetes
@@ -486,7 +527,7 @@ entries:
     version: 0.7.0
   - apiVersion: v1
     appVersion: 1.19.0
-    created: "2021-02-01T17:42:40.799754973+01:00"
+    created: "2021-02-08T17:58:48.970582601+01:00"
     description: Production-Grade Container Scheduling and Management
     digest: e95fcbca886744d4f9956d1c5f1fa232658b0a0be213fe05de39221f16f233b6
     home: https://github.com/kvaps/kubernetes-in-kubernetes
@@ -508,7 +549,7 @@ entries:
     version: 0.6.1
   - apiVersion: v1
     appVersion: 1.19.0
-    created: "2021-02-01T17:42:40.797195933+01:00"
+    created: "2021-02-08T17:58:48.96658094+01:00"
     description: Production-Grade Container Scheduling and Management
     digest: fa2ca36d68fdee579cc343c4580a685c77aacc6ae8d4d5f0b607ae56dbd804ba
     home: https://github.com/kvaps/kubernetes-in-kubernetes
@@ -530,7 +571,7 @@ entries:
     version: 0.6.0
   - apiVersion: v1
     appVersion: 1.19.0
-    created: "2021-02-01T17:42:40.794817712+01:00"
+    created: "2021-02-08T17:58:48.962029495+01:00"
     description: Production-Grade Container Scheduling and Management
     digest: 5d5d7a91f00a7bf1ff7933c0132758bf61cb72c1f27ddbc116cbcc7161bbd0e6
     home: https://github.com/kvaps/kubernetes-in-kubernetes
@@ -552,7 +593,7 @@ entries:
     version: 0.5.2
   - apiVersion: v1
     appVersion: 1.19.0
-    created: "2021-02-01T17:42:40.792370482+01:00"
+    created: "2021-02-08T17:58:48.958294184+01:00"
     description: Production-Grade Container Scheduling and Management
     digest: c216180a2ce0e30c19beb9b25ed2381206b556b1c76389bfe5e40dd6069155e3
     home: https://github.com/kvaps/kubernetes-in-kubernetes
@@ -574,7 +615,7 @@ entries:
     version: 0.5.1
   - apiVersion: v1
     appVersion: 1.19.0
-    created: "2021-02-01T17:42:40.790223116+01:00"
+    created: "2021-02-08T17:58:48.953480137+01:00"
     description: Production-Grade Container Scheduling and Management
     digest: 9d88330417a0cc674354a57daf31b3d0ec91bc4a842a4511c671abba51670b3d
     home: https://github.com/kvaps/kubernetes-in-kubernetes
@@ -596,7 +637,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: 1.19.0
-    created: "2021-02-01T17:42:40.788542016+01:00"
+    created: "2021-02-08T17:58:48.951459679+01:00"
     description: Production-Grade Container Scheduling and Management
     digest: 6035a13136b3ea61a9ff1130a38c8ae56b733e0129d733f97d947fc06a9f5156
     home: https://github.com/kvaps/kubernetes-in-kubernetes
@@ -618,7 +659,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: 1.19.0
-    created: "2021-02-01T17:42:40.786834606+01:00"
+    created: "2021-02-08T17:58:48.948196165+01:00"
     description: Production-Grade Container Scheduling and Management
     digest: 78cf571bef7e2d2e5b03adad28fecb63b94ec3e5f519e18dc4ba4a10934f28ac
     home: https://github.com/kvaps/kubernetes-in-kubernetes
@@ -640,7 +681,7 @@ entries:
     version: 0.3.2
   - apiVersion: v1
     appVersion: 1.19.0
-    created: "2021-02-01T17:42:40.78503298+01:00"
+    created: "2021-02-08T17:58:48.945034452+01:00"
     description: Production-Grade Container Scheduling and Management
     digest: cba301b268788a1717d9759a0e6c8b81abb5176383f6fd0b89575c6d92f157a7
     home: https://github.com/kvaps/kubernetes-in-kubernetes
@@ -661,7 +702,7 @@ entries:
     version: 0.3.1
   - apiVersion: v1
     appVersion: 1.19.0
-    created: "2021-02-01T17:42:40.783279754+01:00"
+    created: "2021-02-08T17:58:48.941593635+01:00"
     description: Production-Grade Container Scheduling and Management
     digest: 410f710227370a4ef6c99cd83310d40876e142c4f3d8c590a2d166c0503fa87b
     home: https://github.com/kvaps/kubernetes-in-kubernetes
@@ -682,7 +723,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 1.18.6
-    created: "2021-02-01T17:42:40.781418725+01:00"
+    created: "2021-02-08T17:58:48.938533894+01:00"
     description: Production-Grade Container Scheduling and Management
     digest: b060db12b02663bca5c016916686011c64d2c67373f206fe837793f1fa414ac0
     home: https://github.com/kvaps/kubernetes-in-kubernetes
@@ -703,7 +744,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 1.18.6
-    created: "2021-02-01T17:42:40.779212057+01:00"
+    created: "2021-02-08T17:58:48.935491165+01:00"
     description: Production-Grade Container Scheduling and Management
     digest: 765d0c9df58593df6319d23f87d63557a320242fe27f1b8c4c60c52738ec86e5
     home: https://github.com/kvaps/kubernetes-in-kubernetes
@@ -725,7 +766,7 @@ entries:
   linstor:
   - apiVersion: v1
     appVersion: 1.11.1
-    created: "2021-02-01T17:42:40.813581243+01:00"
+    created: "2021-02-08T17:58:48.99495524+01:00"
     description: Containerized LINSTOR SDS for Kubernetes, ready for production use.
     digest: a4ed43e681dc6456c495d4ba2befd0441b684abb2ddb687953fd6d2940e0b7ab
     home: https://github.com/kvaps/kube-linstor
@@ -750,7 +791,7 @@ entries:
     version: 1.11.1
   - apiVersion: v1
     appVersion: 1.11.0
-    created: "2021-02-01T17:42:40.81176578+01:00"
+    created: "2021-02-08T17:58:48.99216205+01:00"
     description: Containerized LINSTOR SDS for Kubernetes, ready for production use.
     digest: d91601205f5b49b7331af03e227e71d1e1fc85b8152fc3ffcd5730bea22490f3
     home: https://github.com/kvaps/kube-linstor
@@ -775,7 +816,7 @@ entries:
     version: 1.11.0
   - apiVersion: v1
     appVersion: 1.10.0
-    created: "2021-02-01T17:42:40.809906836+01:00"
+    created: "2021-02-08T17:58:48.989476072+01:00"
     description: Containerized LINSTOR SDS for Kubernetes, ready for production use.
     digest: 85e4069e42bf58a5d4762abe5794d9f16480940376196c1a3c8b749c908d21e6
     home: https://github.com/kvaps/kube-linstor
@@ -797,7 +838,7 @@ entries:
     version: 1.10.0
   - apiVersion: v1
     appVersion: 1.9.0
-    created: "2021-02-01T17:42:40.816357361+01:00"
+    created: "2021-02-08T17:58:48.999935621+01:00"
     description: Containerized LINSTOR SDS for Kubernetes, ready for production use.
     digest: 12630a44bda3f348c36cfbeef8a8820775d764e3dec5fc6ca6cc6006305b1c52
     home: https://github.com/kvaps/kube-linstor
@@ -819,7 +860,7 @@ entries:
     version: 1.9.0
   - apiVersion: v1
     appVersion: 1.7.2
-    created: "2021-02-01T17:42:40.814971927+01:00"
+    created: "2021-02-08T17:58:48.997261485+01:00"
     description: Containerized LINSTOR SDS for Kubernetes, ready for production use,
     digest: b4a2c7664d9c8d225d896b3c808fcd68406774406ad47d1a68038e65f0776760
     home: https://github.com/kvaps/kube-linstor
@@ -842,7 +883,7 @@ entries:
   nfs-server-provisioner:
   - apiVersion: v1
     appVersion: 2.3.0
-    created: "2021-02-01T17:42:40.819180588+01:00"
+    created: "2021-02-08T17:58:49.003630526+01:00"
     description: nfs-server-provisioner is an out-of-tree dynamic provisioner for Kubernetes. You can use it to quickly & easily deploy shared storage that works almost anywhere.
     digest: a5bdf149272da011f1c6bdcc1d43e1127f7f60393ca2357d28f753c9291e0df0
     home: https://github.com/kubernetes-sigs/nfs-ganesha-server-and-external-provisioner
@@ -864,7 +905,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: 2.3.0
-    created: "2021-02-01T17:42:40.818312867+01:00"
+    created: "2021-02-08T17:58:49.002700859+01:00"
     description: nfs-server-provisioner is an out-of-tree dynamic provisioner for Kubernetes. You can use it to quickly & easily deploy shared storage that works almost anywhere.
     digest: 315b54f802abd6b32ad15d274aa74c8e1bb9f99d344aa2af2fe65c2049325c3e
     home: https://github.com/kubernetes-sigs/nfs-ganesha-server-and-external-provisioner
@@ -886,7 +927,7 @@ entries:
     version: 1.2.0
   - apiVersion: v1
     appVersion: 2.3.0
-    created: "2021-02-01T17:42:40.817463791+01:00"
+    created: "2021-02-08T17:58:49.001710988+01:00"
     description: nfs-server-provisioner is an out-of-tree dynamic provisioner for Kubernetes. You can use it to quickly & easily deploy shared storage that works almost anywhere.
     digest: 462ab14ae933abbd83b05b7e305dd440734b315c3354be4bac14c21c9ec2950b
     home: https://github.com/kubernetes/charts/tree/master/stable/nfs-server-provisioner
@@ -911,7 +952,7 @@ entries:
   opennebula:
   - apiVersion: v1
     appVersion: 5.8.5
-    created: "2021-02-01T17:42:40.827096749+01:00"
+    created: "2021-02-08T17:58:49.017546541+01:00"
     description: OpenNebula cloud computing platform
     digest: 56acf9e33bd6e71c173ec202f018be3c536af51652e7e91d92c846647d224b47
     home: https://github.com/kvaps/kube-opennebula
@@ -935,7 +976,7 @@ entries:
     version: 1.2.0
   - apiVersion: v1
     appVersion: 5.8.5
-    created: "2021-02-01T17:42:40.822237915+01:00"
+    created: "2021-02-08T17:58:49.011451956+01:00"
     description: OpenNebula cloud computing platform
     digest: e1667c8a646ca896aba54d9f1b6752dbce867e85e68bdd7aab99002105ced558
     home: https://github.com/kvaps/kube-opennebula
@@ -959,7 +1000,7 @@ entries:
     version: 1.1.0
   pv-hostpath:
   - apiVersion: v1
-    created: "2021-02-01T17:42:40.827366045+01:00"
+    created: "2021-02-08T17:58:49.017909233+01:00"
     description: HostPath Physical Volume
     digest: fb408785b157f2d37ac07c2b3ad6c940817723f454a18b03a888eb73dc3824f6
     maintainers:
@@ -972,7 +1013,7 @@ entries:
   stolon:
   - apiVersion: v1
     appVersion: 0.16.0
-    created: "2021-02-01T17:42:40.830959961+01:00"
+    created: "2021-02-08T17:58:49.024099618+01:00"
     description: Stolon - PostgreSQL cloud native High Availability.
     digest: 2dc21387cb9038812c1283bc339efff79dc03c853e0271be0580084cfc258139
     home: https://github.com/sorintlab/stolon
@@ -991,7 +1032,7 @@ entries:
     version: 1.6.3
   - apiVersion: v1
     appVersion: 0.16.0
-    created: "2021-02-01T17:42:40.829202678+01:00"
+    created: "2021-02-08T17:58:49.020875859+01:00"
     description: Stolon - PostgreSQL cloud native High Availability.
     digest: 56d14d0112af55d949a73991ef8033300ea20aa81e7cec8e38ba25caa5041d8d
     home: https://github.com/sorintlab/stolon
@@ -1008,4 +1049,4 @@ entries:
     urls:
     - https://kvaps.github.io/charts/stolon-1.6.2.tgz
     version: 1.6.2
-generated: "2021-02-01T17:42:40.709393326+01:00"
+generated: "2021-02-08T17:58:48.803084632+01:00"
